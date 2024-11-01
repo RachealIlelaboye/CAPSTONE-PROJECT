@@ -1,7 +1,7 @@
 # CAPSTONE-PROJECT
 This is the documentation of Ladies in Tech Africa (LITA) capstone project.
 
-# PROJEECT 1 - Sales Performance Analysis for a Retail Store
+# PROJECT 1 - Sales Performance Analysis for a Retail Store
 
 ## Project Overview
 In this project, the sales performance of a retail store is analyzed. Sales data was explored to uncover key insights such as top-selling products, regional 
@@ -144,3 +144,38 @@ This dashboard visualizes the insights found in Excel and SQL. The
 dashboard includes a sales overview, top-performing products, and 
 regional breakdowns.
 
+![BI sales](https://github.com/user-attachments/assets/8727182c-a36a-4755-a578-58ea22cfd603)
+
+
+# PROJECT 2 - Customer Segmentation for a Subscription Service
+
+## Project Overview 
+This project involves customer data analysis for a subscription service to identify segments and trends. The goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals. 
+
+## Data Source
+The data for this project was gotten from LITA [Official Website](https://theincubatorng.org/LITA/index.html)
+
+## Tools Used
+- Microsoft Excel [Download here](https://www.microsoft.com/en-us/microsoft-365/excel)
+  1. Data exploration
+  2. Report
+  
+- SQL Server Management Studio [Download here](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+
+  Data querying
+  
+- PowerBI [DOWNLOAD HERE](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+
+  Visualization
+  
+- Github
+  
+  Portfolio building
+
+## Excel 
+ - Data Preprocessing and cleaning
+   1.   Removal of duplicates
+   2.   Creation of new columns for revenue
+   3.   Extraction of year and months from orderdate
+
+  - 

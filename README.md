@@ -38,3 +38,104 @@ total sales by product, region, and month.
  - Excel formulas to calculate metrics such as average sales per product and 
 total revenue by region.
 
+![Excel sales](https://github.com/user-attachments/assets/aa94278b-056a-4529-88f4-5b6f49d2468b)
+
+## SQL
+- Database creation and data Preprocessing/cleaning
+``` SQL
+CREATE DATABASE CAPSTONE_PROJECT;
+select *
+from [dbo].[Capstone Sales]
+```
+- The total sales for each product category
+```SQL
+SELECT 
+    Product,
+    SUM(Revenue) AS TotalSales
+FROM 
+    [dbo].[Capstone Sales]
+GROUP BY 
+    Product
+ORDER BY 
+    TotalSales DESC;
+```
+- Number of sales transactions in each region.
+```SQL
+SELECT 
+    Region,
+    SUM(REVENUE) AS NumberOfTransactions
+FROM 
+    [dbo].[Capstone Sales]
+GROUP BY 
+    Region
+ORDER BY 
+    NumberOfTransactions DESC;
+```
+- Highest-selling product by total sales value.
+```SQL
+SELECT
+    Product, Sum(Quantity) As SalesValue
+FROM
+[dbo].[Capstone Sales]
+GROUP BY
+Product
+ORDER BY
+SalesValue DESC;
+```
+- Total revenue per product.
+```SQL
+SELECT
+    Product, Sum(Revenue) As Revenue
+FROM
+[dbo].[Capstone Sales]
+GROUP BY
+Product
+ORDER BY
+Revenue DESC;
+```
+- Monthly sales totals for the current year.
+```SQL
+SELECT 
+    MONTH(OrderDate) AS Month,
+    SUM(Quantity) AS MonthlyTotalSales
+FROM 
+    [dbo].[Capstone Sales]
+WHERE 
+    YEAR(OrderDate) = YEAR(GETDATE())
+GROUP BY 
+    MONTH(OrderDate)
+ORDER BY 
+    Month;
+```
+- Top 5 customers by total purchase amount.
+```SQL
+SELECT 
+  TOP 5 CustomerID,
+    SUM(Revenue) AS TotalPurchaseAmount
+FROM 
+    [dbo].[Capstone Sales]
+GROUP BY 
+    CustomerID
+ORDER BY 
+    TotalPurchaseAmount DESC;
+```
+- Percentage of total sales contributed by each region.
+```SQL
+SELECT 
+    Region,
+    SUM(Revenue) AS TotalSales,
+    (SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM [dbo].[Capstone Sales])) AS SalesPercentage
+FROM 
+    [dbo].[Capstone Sales]
+GROUP BY 
+    Region
+ORDER BY 
+    SalesPercentage DESC;
+```
+- Products with no sales in the last quarter.
+```SQL
+SELECT  Product
+FROM [dbo].[Capstone Sales]
+    WHERE Quantity = 0
+      AND OrderDate >= DATEADD(QUARTER, -1, GETDATE());
+```

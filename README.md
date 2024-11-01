@@ -139,3 +139,8 @@ FROM [dbo].[Capstone Sales]
     WHERE Quantity = 0
       AND OrderDate >= DATEADD(QUARTER, -1, GETDATE());
 ```
+## PowerBI
+This dashboard visualizes the insights found in Excel and SQL. The 
+dashboard includes a sales overview, top-performing products, and 
+regional breakdowns.
+

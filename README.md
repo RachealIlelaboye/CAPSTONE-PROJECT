@@ -183,4 +183,19 @@ The data for this project was gotten from LITA [Official Website](https://theinc
   - Average subscription duration calculation and identifying the most popular 
 subscription types
 
+![Excel customer](https://github.com/user-attachments/assets/435c4e3a-3f06-4c8a-8b01-2ccd3eba5e1d)
+
+## SQL
+- Total number of customers from each region.
+- Most popular subscription type by the number of customers.
+- Cstomers who canceled their subscription within 6 months.
+- The average subscription duration for all customers
+- Customers with subscriptions longer than 12 months.
+- Total revenue by subscription type.
+- Top 3 regions by subscription cancellations.
+- Total number of active and canceled subscriptions.
+## PowerBI
+This dashboard visualizes key customer segments, cancellations, and subscription trends. Including slicers for interactive analysis
+
+![Customer BI](https://github.com/user-attachments/assets/cc92b581-f68e-4e42-88c9-c3e28d55abe9)
 

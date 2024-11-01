@@ -178,4 +178,9 @@ The data for this project was gotten from LITA [Official Website](https://theinc
    2.   Creation of new columns for revenue
    3.   Extraction of year and months from orderdate
 
-  - 
+  - Customer data analysis using pivot tables to find subscription patterns.
+    
+  - Average subscription duration calculation and identifying the most popular 
+subscription types
+
+

@@ -1,4 +1,4 @@
-# CAPSTONE-PROJECT
+# LITA CAPSTONE PROJECT
 This is the documentation of Ladies in Tech Africa (LITA) capstone project.
 
 # PROJECT 1 - Sales Performance Analysis for a Retail Store

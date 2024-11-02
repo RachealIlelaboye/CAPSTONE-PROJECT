@@ -187,13 +187,103 @@ subscription types
 
 ## SQL
 - Total number of customers from each region.
+```SQL
+SELECT 
+    Region,
+    COUNT(DISTINCT CustomerID) AS TotalCustomers
+FROM 
+    [dbo].[Captstone]
+GROUP BY 
+    Region
+ORDER BY 
+    TotalCustomers DESC;
+```
 - Most popular subscription type by the number of customers.
+```SQL
+SELECT 
+   TOP 1 SubscriptionType,
+    COUNT(DISTINCT CustomerID) AS NumberOfCustomers
+FROM 
+    [dbo].[Captstone]
+GROUP BY 
+    SubscriptionType
+ORDER BY 
+    NumberOfCustomers DESC;
+```
 - Cstomers who canceled their subscription within 6 months.
+```SQL
+SELECT 
+    CustomerID,
+    SubscriptionStart,
+   SubscriptionEnd
+FROM 
+    [dbo].[Captstone]
+WHERE 
+    SubscriptionEnd IS NOT NULL  
+    AND DATEDIFF(MONTH, SubscriptionStart, SubscriptionEnd) <= 6;
+```
 - The average subscription duration for all customers
+```SQL
+SELECT 
+    AVG(DATEDIFF(MONTH, SubscriptionStart, 
+        CASE 
+            WHEN SubscriptionEnd IS NOT NULL THEN SubscriptionEnd 
+            ELSE GETDATE() 
+        END)) AS AverageSubscriptionDuration
+FROM 
+   [dbo].[Captstone] ;
+```
 - Customers with subscriptions longer than 12 months.
+```SQL
+SELECT 
+    CustomerID
+FROM 
+  [dbo].[Captstone]
+WHERE 
+    DATEDIFF(MONTH, SubscriptionStart, 
+        CASE 
+            WHEN SubscriptionEnd IS NOT NULL THEN SubscriptionEnd
+            ELSE GETDATE()  
+        END) > 12;
+```
 - Total revenue by subscription type.
+```SQL
+SELECT 
+    SubscriptionType,
+    SUM(Revenue) AS TotalRevenue
+FROM 
+   [dbo].[Captstone] 
+GROUP BY 
+    SubscriptionType
+ORDER BY 
+    TotalRevenue DESC; 
+```
 - Top 3 regions by subscription cancellations.
+```SQL
+SELECT 
+    Region,
+    COUNT(Canceled) AS CancellationCount
+FROM 
+     [dbo].[Captstone] 
+WHERE 
+    Canceled ='TRUE'  
+GROUP BY 
+    Region
+ORDER BY 
+    CancellationCount DESC
+```
 - Total number of active and canceled subscriptions.
+```SQL
+SELECT 
+   Canceled,
+    COUNT(*) AS SubscriptionCount
+FROM 
+     [dbo].[Captstone] -- Replace with your actual table name
+WHERE 
+    Canceled IS NOT NULL
+GROUP BY 
+    Canceled;
+```
 ## PowerBI
 This dashboard visualizes key customer segments, cancellations, and subscription trends. Including slicers for interactive analysis
 

@@ -1,6 +1,9 @@
 # LITA CAPSTONE PROJECT
 This is the documentation of Ladies in Tech Africa (LITA) capstone project.
 
+![LITA Logo](https://github.com/user-attachments/assets/2c88d1e8-451a-4fb5-bcfa-8c8607313023)
+
+
 # PROJECT 1 - Sales Performance Analysis for a Retail Store
 
 ## Project Overview

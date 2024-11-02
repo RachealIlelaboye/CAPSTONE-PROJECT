@@ -184,7 +184,6 @@ The data for this project was gotten from LITA [Official Website](https://theinc
 subscription types
 
 ![Excel customer](https://github.com/user-attachments/assets/435c4e3a-3f06-4c8a-8b01-2ccd3eba5e1d)
-[View excel sheet here]([Racheal T. Ilelaboye project.xlsx](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
 
 ## SQL
 - Total number of customers from each region.
@@ -290,3 +289,8 @@ This dashboard visualizes key customer segments, cancellations, and subscription
 
 ![Customer BI](https://github.com/user-attachments/assets/cc92b581-f68e-4e42-88c9-c3e28d55abe9)
 
+[PowerBI Dashboard]
+
+[Excel Sheet]([Racheal T. Ilelaboye project.xlsx](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
+
+[SQL scripts]

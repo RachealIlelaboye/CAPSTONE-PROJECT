@@ -316,13 +316,13 @@ This dashboard visualizes key customer segments, cancellations, and subscription
 
 #Project Documents
 
-[PowerBI Dashboard](https://github.com/user-attachments/files/17606102/Racheal.T.Ilelaboye.PowerBI.pdf)
+- [PowerBI Dashboard](https://github.com/user-attachments/files/17606102/Racheal.T.Ilelaboye.PowerBI.pdf)
 
-[Excel Sheet](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
+- [Excel Sheet](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
 
-[SQL script pdf 1](https://github.com/user-attachments/files/17606236/Racheal.Titilayo.Ilelaboye.Subscription.pdf)
+- [SQL script pdf 1](https://github.com/user-attachments/files/17606236/Racheal.Titilayo.Ilelaboye.Subscription.pdf)
 
-[SQL script pdf 2](https://github.com/user-attachments/files/17606237/Racheal.Titilayo.Ilelaboye.Sales.pdf)
+- [SQL script pdf 2](https://github.com/user-attachments/files/17606237/Racheal.Titilayo.Ilelaboye.Sales.pdf)
 
 # Project Conclusion
 In this analysis projects, I effectively utilized Excel, SQL, and Power BI to transform raw data into actionable insights. Here’s a summary of the outcomes and tools applied:

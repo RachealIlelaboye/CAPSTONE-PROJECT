@@ -330,7 +330,7 @@ In this analysis projects, I effectively utilized Excel, SQL, and Power BI to tr
 - Exploratory Data Analysis (EDA): With Excel, I performed preliminary data exploration, calculated summary statistics, and identified key trends and patterns. Excel's pivot tables and basic statistical functions helped to quickly assess the data and identify any anomalies.
 - Data Visualization and Reporting: In Power BI, I built a comprehensive dashboard, displaying key metrics, trends, and comparisons for an interactive, real-time view of the data. Visualizations enabled stakeholders to easily interpret insights, understand performance trends, and make data-driven decisions.
   
--- Key Insights:
+Key Insights:
 - Customer data: Analyzed customer data
 - Sales Trends: Highlighted trends in sales and subscription.
 - Product/SubscriptionType Performance: Identified top and underperforming products and subscription types, providing guidance for future improvement.

@@ -39,6 +39,15 @@ total sales by product, region, and month.
 total revenue by region.
 
 ![Excel sales](https://github.com/user-attachments/assets/aa94278b-056a-4529-88f4-5b6f49d2468b)
+- Interpretations
+  
+  - The product with the highest sales is Hat with over 80,000 quantity sold. The least product in terms of sales is Jacket.
+  
+  - The Region with the highest sales is the South. The region with the least sales and revenue is the West.
+  
+  - The highest sales were recorded in the month of June.
+  
+  - The highest revenue is recorded in the year 2023.
 
 ## SQL
 - Database creation and data Preprocessing/cleaning
@@ -146,6 +155,11 @@ regional breakdowns.
 
 ![BI sales](https://github.com/user-attachments/assets/8727182c-a36a-4755-a578-58ea22cfd603)
 
+- Insights
+  - A total number of 500customers is recorded for this retail store
+  - Total quantity of products sold is 345,000 units
+  - Total Revenue is $10,587,500
+  - Customer with customerId cus1151 has the highest number of product purchases
 
 # PROJECT 2 - Customer Segmentation for a Subscription Service
 
@@ -173,18 +187,24 @@ The data for this project was gotten from LITA [Official Website](https://theinc
   Portfolio building
 
 ## Excel 
- - Data Preprocessing and cleaning
+- Data Preprocessing and cleaning
    1.   Removal of duplicates
    2.   Creation of new columns for revenue
    3.   Extraction of year and months from orderdate
 
-  - Customer data analysis using pivot tables to find subscription patterns.
+- Customer data analysis using pivot tables to find subscription patterns.
     
-  - Average subscription duration calculation and identifying the most popular 
+- Average subscription duration calculation and identifying the most popular 
 subscription types
 
 ![Excel customer](https://github.com/user-attachments/assets/435c4e3a-3f06-4c8a-8b01-2ccd3eba5e1d)
 
+- Interpretations
+  - The regions has equal number of customers
+  - Basic subscription type has the highest number of subscriptions
+  - The regions have equal number of subscription cancellations
+  - A total of 11 customer is recorded
+    
 ## SQL
 - Total number of customers from each region.
 ```SQL
@@ -288,9 +308,16 @@ GROUP BY
 This dashboard visualizes key customer segments, cancellations, and subscription trends. Including slicers for interactive analysis
 
 ![Customer BI](https://github.com/user-attachments/assets/cc92b581-f68e-4e42-88c9-c3e28d55abe9)
+- The subscription service has a total of 20customers, 9 of which have cancelled.
+- The total revenue is $41,465
+- The average subscription duration is 365days(1 year)
+- The highest revenue is recorded in 2022
+- The highest subscription cancellation is recorded in year 2023
+- Basic subscription type has the highest number of subscriptions as well as revenue
 
-[PowerBI Dashboard]
 
-[Excel Sheet]([Racheal T. Ilelaboye project.xlsx](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
+#Project Documents
+[PowerBI Dashboard](https://github.com/user-attachments/files/17606102/Racheal.T.Ilelaboye.PowerBI.pdf)
 
-[SQL scripts]
+[Excel Sheet](https://github.com/user-attachments/files/17606075/Racheal.T.Ilelaboye.project.xlsx)
+

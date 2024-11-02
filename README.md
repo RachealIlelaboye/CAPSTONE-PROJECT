@@ -322,13 +322,10 @@ This dashboard visualizes key customer segments, cancellations, and subscription
 [SQL script pdf 2](https://github.com/user-attachments/files/17606237/Racheal.Titilayo.Ilelaboye.Sales.pdf)
 
 # Project Conclusion
-In this analysis projects, we effectively utilized Excel, SQL, and Power BI to transform raw data into actionable insights. Here’s a summary of the outcomes and tools applied:
-- Data Preparation:
- - Using SQL, we imported and structured the raw data, performed initial data cleaning, and created a well-organized database. This set the foundation for accurate, consistent analysis and allowed seamless querying for key metrics.
-- Exploratory Data Analysis (EDA):
- -With Excel, we performed preliminary data exploration, calculated summary statistics, and identified key trends and patterns. Excel's pivot tables and basic statistical functions helped quickly assess the data and identify any anomalies.
-- Data Visualization and Reporting:
- -In Power BI, we built a comprehensive dashboard, displaying key metrics, trends, and comparisons for an interactive, real-time view of the data. Visualizations enabled stakeholders to easily interpret insights, understand performance trends, and make data-driven decisions.
+In this analysis projects, I effectively utilized Excel, SQL, and Power BI to transform raw data into actionable insights. Here’s a summary of the outcomes and tools applied:
+- Data Preparation: Using SQL, I imported and structured the raw data, performed initial data cleaning, and created a well-organized database. This set the foundation for accurate, consistent analysis and allowed seamless querying for key metrics.
+- Exploratory Data Analysis (EDA): With Excel, I performed preliminary data exploration, calculated summary statistics, and identified key trends and patterns. Excel's pivot tables and basic statistical functions helped to quickly assess the data and identify any anomalies.
+- Data Visualization and Reporting: In Power BI, I built a comprehensive dashboard, displaying key metrics, trends, and comparisons for an interactive, real-time view of the data. Visualizations enabled stakeholders to easily interpret insights, understand performance trends, and make data-driven decisions.
   
 -- Key Insights:
 - Customer data: Analyzed customer data
